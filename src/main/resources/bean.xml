@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+         http://www.springframework.org/schema/aop/spring-aop.xsd"
+       >
+<!--    <aop:aspectj-autoproxy/>-->
+<!--    <bean id="myAspact" class="cn.yao.aop.MyAspactj"></bean>-->
+<!--    <aop:config proxy-target-class="false">-->
+<!--        <aop:pointcut id="pointcut" expression="this(cn.yao.service.impl.AccountServiceImpl)"/>-->
+<!--        <aop:aspect id="serviceAdvice" ref="myAspact">-->
+<!--            <aop:after method="afterService" pointcut-ref="pointcut"></aop:after>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+<!--    <context:annotation-config></context:annotation-config>-->
+<!--    <context:component-scan base-package="cn.yao"></context:component-scan>-->
+<!--    <bean id="accountService" class="cn.yao.service.impl.AccountServiceImpl" >-->
+<!--&lt;!&ndash;        <property name="dao" ref="dao"></property>&ndash;&gt;-->
+<!--&lt;!&ndash;            <lookup-method name="createDao" bean="dao"></lookup-method>&ndash;&gt;-->
+<!--&lt;!&ndash;        <replaced-method name="saveAccount" replacer="dao1"></replaced-method>&ndash;&gt;-->
+<!--    </bean>-->
+<!--    <bean  id="dao" class="cn.yao.dao.impl.AccountImpl" scope="prototype"></bean>-->
+
+</beans>
